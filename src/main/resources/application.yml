@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: 'OFF'
+
+logging:
+  pattern:
+    console: '%m%n'
+  level:
+    ROOT: 'WARN'
+
+env:
+  test-prefix:
+    name: 'default name'
+    container:
+      single-value: 'default single value in container'
+      multi-value:
+      - 'default first multi value in container'
+      - 'default second multi value in container'
